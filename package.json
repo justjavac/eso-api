@@ -8,9 +8,10 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/strapi": "4.5.3",
+    "@strapi/plugin-graphql": "4.5.3",
+    "@strapi/plugin-i18n": "^4.5.3",
     "@strapi/plugin-users-permissions": "4.5.3",
-    "@strapi/plugin-i18n": "4.5.3",
+    "@strapi/strapi": "4.5.3",
     "mysql": "2.18.1"
   },
   "devDependencies": {},

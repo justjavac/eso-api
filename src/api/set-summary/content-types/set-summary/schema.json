@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "set_summaries",
+  "info": {
+    "singularName": "set-summary",
+    "pluralName": "set-summaries",
+    "displayName": "套装",
+    "description": "Eso 套装"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "itemCount": {
+      "type": "integer"
+    },
+    "setBonusCount": {
+      "type": "integer"
+    },
+    "setMaxEquipCount": {
+      "type": "integer"
+    },
+    "gameId": {
+      "type": "integer"
+    },
+    "setBonusDesc1": {
+      "type": "string"
+    },
+    "setBonusDesc2": {
+      "type": "string"
+    },
+    "setBonusDesc3": {
+      "type": "string"
+    },
+    "setBonusDesc4": {
+      "type": "string"
+    },
+    "setBonusDesc5": {
+      "type": "string"
+    },
+    "setBonusDesc6": {
+      "type": "string"
+    },
+    "setBonusDesc7": {
+      "type": "string"
+    },
+    "itemSlots": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "achievement_categories",
+  "info": {
+    "singularName": "achievement-category",
+    "pluralName": "achievement-categories",
+    "displayName": "成就分类",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categoryId": {
+      "type": "integer"
+    },
+    "categoryName": {
+      "type": "string"
+    },
+    "subCategoryName": {
+      "type": "string"
+    },
+    "categoryIndex": {
+      "type": "integer"
+    },
+    "subCategoryIndex": {
+      "type": "integer"
+    },
+    "numAchievements": {
+      "type": "integer"
+    },
+    "points": {
+      "type": "integer"
+    },
+    "hidesPoints": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "pressedIcon": {
+      "type": "string"
+    },
+    "mouseoverIcon": {
+      "type": "string"
+    },
+    "gamepadIcon": {
+      "type": "string"
+    }
+  }
+}
