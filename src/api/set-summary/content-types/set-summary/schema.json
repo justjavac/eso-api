@@ -31,28 +31,28 @@
       "type": "integer"
     },
     "setBonusDesc1": {
-      "type": "string"
+      "type": "text"
     },
     "setBonusDesc2": {
-      "type": "string"
+      "type": "text"
     },
     "setBonusDesc3": {
-      "type": "string"
+      "type": "text"
     },
     "setBonusDesc4": {
-      "type": "string"
+      "type": "text"
     },
     "setBonusDesc5": {
-      "type": "string"
+      "type": "text"
     },
     "setBonusDesc6": {
-      "type": "string"
+      "type": "text"
     },
     "setBonusDesc7": {
-      "type": "string"
+      "type": "text"
     },
     "itemSlots": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
