@@ -1,0 +1,91 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zones",
+  "info": {
+    "singularName": "zone",
+    "pluralName": "zones",
+    "displayName": "区域",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "zoneId": {
+      "type": "integer"
+    },
+    "zoneIndex": {
+      "type": "integer"
+    },
+    "zoneName": {
+      "type": "string"
+    },
+    "subZoneName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "mapName": {
+      "type": "string"
+    },
+    "mapType": {
+      "type": "integer"
+    },
+    "mapContentType": {
+      "type": "integer"
+    },
+    "mapFilterType": {
+      "type": "integer"
+    },
+    "numPOIs": {
+      "type": "integer"
+    },
+    "allowsScaling": {
+      "type": "boolean"
+    },
+    "allowsBattleScaling": {
+      "type": "boolean"
+    },
+    "minLevel": {
+      "type": "integer"
+    },
+    "maxLevel": {
+      "type": "integer"
+    },
+    "isAvA1": {
+      "type": "boolean"
+    },
+    "isAvA2": {
+      "type": "boolean"
+    },
+    "isBattleground": {
+      "type": "boolean"
+    },
+    "telvarBehavior": {
+      "type": "integer"
+    },
+    "isOutlaw": {
+      "type": "boolean"
+    },
+    "isJustice": {
+      "type": "boolean"
+    },
+    "isTutorial": {
+      "type": "boolean"
+    },
+    "isGroupOwnable": {
+      "type": "boolean"
+    },
+    "isDungeon": {
+      "type": "boolean"
+    },
+    "dungeonDifficulty": {
+      "type": "integer"
+    },
+    "count": {
+      "type": "integer"
+    }
+  }
+}
