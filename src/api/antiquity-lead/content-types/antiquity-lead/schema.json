@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "antiquity_leads",
+  "info": {
+    "singularName": "antiquity-lead",
+    "pluralName": "antiquity-leads",
+    "displayName": "古物线索",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
