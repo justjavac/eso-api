@@ -53,6 +53,16 @@
     },
     "itemSlots": {
       "type": "text"
+    },
+    "nameEn": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    },
+    "icon": {
+      "type": "string"
     }
   }
 }
