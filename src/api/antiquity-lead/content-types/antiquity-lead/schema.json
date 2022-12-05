@@ -14,6 +14,87 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "quality": {
+      "type": "integer"
+    },
+    "difficulty": {
+      "type": "integer"
+    },
+    "requiresLead": {
+      "type": "integer"
+    },
+    "rewardId": {
+      "type": "integer"
+    },
+    "zoneId": {
+      "type": "integer"
+    },
+    "setId": {
+      "type": "integer"
+    },
+    "setName": {
+      "type": "string"
+    },
+    "setIcon": {
+      "type": "string"
+    },
+    "setQuality": {
+      "type": "integer"
+    },
+    "setRewardId": {
+      "type": "integer"
+    },
+    "setCount": {
+      "type": "integer"
+    },
+    "categoryId": {
+      "type": "integer"
+    },
+    "categoryName": {
+      "type": "string"
+    },
+    "categoryIcon": {
+      "type": "string"
+    },
+    "categoryOrder": {
+      "type": "integer"
+    },
+    "categoryCount": {
+      "type": "integer"
+    },
+    "loreName1": {
+      "type": "string"
+    },
+    "loreDescription1": {
+      "type": "text"
+    },
+    "loreName2": {
+      "type": "string"
+    },
+    "loreDescription2": {
+      "type": "text"
+    },
+    "loreName3": {
+      "type": "string"
+    },
+    "loreDescription3": {
+      "type": "text"
+    },
+    "loreName4": {
+      "type": "string"
+    },
+    "loreDescription4": {
+      "type": "text"
+    },
+    "loreName5": {
+      "type": "string"
+    },
+    "loreDescription5": {
+      "type": "text"
     }
   }
 }
