@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newslist",
+  "info": {
+    "singularName": "news",
+    "pluralName": "newslist",
+    "displayName": "新闻",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "newslist"
+    }
+  }
+}
