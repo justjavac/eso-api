@@ -57,12 +57,12 @@
     "nameEn": {
       "type": "string"
     },
-    "slug": {
-      "type": "string",
-      "unique": true
-    },
     "icon": {
       "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nameEn"
     }
   }
 }
