@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skill_lines",
+  "info": {
+    "singularName": "skill-line",
+    "pluralName": "skill-lines",
+    "displayName": "技能线",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "nameEn": {
+      "type": "string"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nameEn"
+    },
+    "skillType": {
+      "type": "string"
+    },
+    "raceType": {
+      "type": "string"
+    },
+    "classType": {
+      "type": "string"
+    },
+    "numRanks": {
+      "type": "integer"
+    },
+    "totalXp": {
+      "type": "integer"
+    },
+    "gameid": {
+      "type": "integer"
+    }
+  }
+}
