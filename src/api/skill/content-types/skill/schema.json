@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skills",
+  "info": {
+    "singularName": "skill",
+    "pluralName": "skills",
+    "displayName": "skill",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "skillTypeName": {
+      "type": "string"
+    },
+    "baseName": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "learnedLevel": {
+      "type": "integer"
+    },
+    "rank": {
+      "type": "integer"
+    },
+    "maxRank": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string"
+    },
+    "skillIndex": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "nameEn": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nameEn"
+    }
+  }
+}
