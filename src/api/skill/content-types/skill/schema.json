@@ -44,6 +44,225 @@
     "slug": {
       "type": "uid",
       "targetField": "nameEn"
+    },
+    "description": {
+      "type": "text"
+    },
+    "descHeader": {
+      "type": "text"
+    },
+    "rawDescription": {
+      "type": "text"
+    },
+    "rawTooltip": {
+      "type": "text"
+    },
+    "rawCoef": {
+      "type": "text"
+    },
+    "coefTypes": {
+      "type": "text"
+    },
+    "duration": {
+      "type": "integer"
+    },
+    "startTime": {
+      "type": "integer"
+    },
+    "tickTime": {
+      "type": "integer"
+    },
+    "cooldown": {
+      "type": "integer"
+    },
+    "cost": {
+      "type": "integer"
+    },
+    "target": {
+      "type": "string"
+    },
+    "range": {
+      "type": "integer"
+    },
+    "minRange": {
+      "type": "integer"
+    },
+    "maxRange": {
+      "type": "integer"
+    },
+    "radius": {
+      "type": "integer"
+    },
+    "isPassive": {
+      "type": "boolean"
+    },
+    "isChanneled": {
+      "type": "boolean"
+    },
+    "isPermanent": {
+      "type": "boolean"
+    },
+    "isPlayer": {
+      "type": "boolean"
+    },
+    "morph": {
+      "type": "integer"
+    },
+    "castTime": {
+      "type": "integer"
+    },
+    "channelTime": {
+      "type": "integer"
+    },
+    "angleDistance": {
+      "type": "integer"
+    },
+    "mechanic": {
+      "type": "string"
+    },
+    "buffType": {
+      "type": "string"
+    },
+    "isToggle": {
+      "type": "boolean"
+    },
+    "chargeFreq": {
+      "type": "integer"
+    },
+    "skillType": {
+      "type": "string"
+    },
+    "skillLine": {
+      "type": "string"
+    },
+    "raceType": {
+      "type": "string"
+    },
+    "classType": {
+      "type": "string"
+    },
+    "setName": {
+      "type": "string"
+    },
+    "upgradeLines": {
+      "type": "text"
+    },
+    "effectLines": {
+      "type": "text"
+    },
+    "numCoefVars": {
+      "type": "integer"
+    },
+    "coefDescription": {
+      "type": "text"
+    },
+    "type1": {
+      "type": "string"
+    },
+    "a1": {
+      "type": "float"
+    },
+    "b1": {
+      "type": "float"
+    },
+    "c1": {
+      "type": "float"
+    },
+    "R1": {
+      "type": "float"
+    },
+    "avg1": {
+      "type": "float"
+    },
+    "type2": {
+      "type": "string"
+    },
+    "a2": {
+      "type": "float"
+    },
+    "b2": {
+      "type": "float"
+    },
+    "c2": {
+      "type": "float"
+    },
+    "R2": {
+      "type": "float"
+    },
+    "avg2": {
+      "type": "float"
+    },
+    "type3": {
+      "type": "string"
+    },
+    "a3": {
+      "type": "float"
+    },
+    "b3": {
+      "type": "float"
+    },
+    "c3": {
+      "type": "float"
+    },
+    "R3": {
+      "type": "float"
+    },
+    "avg3": {
+      "type": "float"
+    },
+    "type4": {
+      "type": "string"
+    },
+    "a4": {
+      "type": "float"
+    },
+    "b4": {
+      "type": "float"
+    },
+    "c4": {
+      "type": "float"
+    },
+    "R4": {
+      "type": "float"
+    },
+    "avg4": {
+      "type": "float"
+    },
+    "type5": {
+      "type": "string"
+    },
+    "a5": {
+      "type": "float"
+    },
+    "b5": {
+      "type": "float"
+    },
+    "c5": {
+      "type": "float"
+    },
+    "R5": {
+      "type": "float"
+    },
+    "avg5": {
+      "type": "float"
+    },
+    "type6": {
+      "type": "string"
+    },
+    "a6": {
+      "type": "float"
+    },
+    "b6": {
+      "type": "float"
+    },
+    "c6": {
+      "type": "float"
+    },
+    "R6": {
+      "type": "float"
+    },
+    "avg6": {
+      "type": "float"
     }
   }
 }
