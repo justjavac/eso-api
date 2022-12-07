@@ -39,8 +39,8 @@
     "totalXp": {
       "type": "integer"
     },
-    "gameid": {
-      "type": "integer"
+    "xp": {
+      "type": "string"
     }
   }
 }
