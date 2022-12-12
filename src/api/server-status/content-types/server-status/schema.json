@@ -4,13 +4,14 @@
   "info": {
     "singularName": "server-status",
     "pluralName": "server-statuses",
-    "displayName": "ESO服务器状态"
+    "displayName": "ESO服务器状态",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "attributes": {
-    "messages": {
+    "message": {
       "type": "text"
     },
     "servers": {
