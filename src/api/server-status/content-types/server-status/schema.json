@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "server_statuses",
+  "info": {
+    "singularName": "server-status",
+    "pluralName": "server-statuses",
+    "displayName": "ESO服务器状态"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "messages": {
+      "type": "text"
+    },
+    "servers": {
+      "type": "json"
+    }
+  }
+}
