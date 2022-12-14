@@ -17,7 +17,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::news.news",
-      "inversedBy": "tags"
+      "mappedBy": "tags"
     }
   }
 }

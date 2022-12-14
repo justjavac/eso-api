@@ -28,6 +28,10 @@
       "relation": "manyToMany",
       "target": "api::tag.tag",
       "inversedBy": "newslist"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
