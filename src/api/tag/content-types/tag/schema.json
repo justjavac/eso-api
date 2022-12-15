@@ -18,6 +18,12 @@
       "relation": "manyToMany",
       "target": "api::news.news",
       "mappedBy": "tags"
+    },
+    "builds": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::build.build",
+      "mappedBy": "tags"
     }
   }
 }

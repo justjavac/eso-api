@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "builds",
+  "info": {
+    "singularName": "build",
+    "pluralName": "builds",
+    "displayName": "构建",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "builds"
+    }
+  }
+}
