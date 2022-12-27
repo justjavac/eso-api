@@ -86,6 +86,16 @@
     },
     "count": {
       "type": "integer"
+    },
+    "zoneNameEn": {
+      "type": "string"
+    },
+    "subZoneNameEn": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "subZoneNameEn"
     }
   }
 }
