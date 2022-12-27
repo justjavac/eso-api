@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "npcs",
+  "info": {
+    "singularName": "npc",
+    "pluralName": "npcs",
+    "displayName": "NPC",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "nameEn": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nameEn"
+    },
+    "reaction": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "ppDifficulty": {
+      "type": "integer"
+    },
+    "ppClass": {
+      "type": "string"
+    },
+    "difficulty": {
+      "type": "integer"
+    },
+    "gender": {
+      "type": "integer"
+    },
+    "level": {
+      "type": "integer"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
