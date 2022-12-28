@@ -32,6 +32,9 @@
       "relation": "manyToOne",
       "target": "api::faction.faction",
       "inversedBy": "races"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
