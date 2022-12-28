@@ -105,6 +105,12 @@
       "relation": "manyToMany",
       "target": "api::npc.npc",
       "mappedBy": "locations"
+    },
+    "thumb": {
+      "type": "string"
+    },
+    "mapId": {
+      "type": "integer"
     }
   }
 }
