@@ -35,6 +35,12 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "npcs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::npc.npc",
+      "mappedBy": "race"
     }
   }
 }

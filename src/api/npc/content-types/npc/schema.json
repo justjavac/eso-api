@@ -44,6 +44,15 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "race": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::race.race",
+      "inversedBy": "npcs"
+    },
+    "thumb": {
+      "type": "string"
     }
   }
 }
