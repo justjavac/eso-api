@@ -99,6 +99,12 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "npcs": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::npc.npc",
+      "mappedBy": "locations"
     }
   }
 }

@@ -53,6 +53,12 @@
     },
     "thumb": {
       "type": "string"
+    },
+    "locations": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::zone.zone",
+      "inversedBy": "npcs"
     }
   }
 }
