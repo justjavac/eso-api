@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "races",
+  "collectionName": "factions",
   "info": {
-    "singularName": "race",
-    "pluralName": "races",
-    "displayName": "种族",
-    "description": ""
+    "singularName": "faction",
+    "pluralName": "factions",
+    "displayName": "阵营"
   },
   "options": {
     "draftAndPublish": true
@@ -21,17 +20,20 @@
       "type": "uid",
       "targetField": "nameEn"
     },
+    "icon": {
+      "type": "string"
+    },
     "description": {
       "type": "text"
     },
-    "thumb": {
-      "type": "string"
+    "content": {
+      "type": "richtext"
     },
-    "faction": {
+    "races": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::faction.faction",
-      "inversedBy": "races"
+      "relation": "oneToMany",
+      "target": "api::race.race",
+      "mappedBy": "faction"
     }
   }
 }
