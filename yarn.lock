@@ -1145,24 +1145,24 @@
   dependencies:
     tslib "^2.0.1"
 
-"@floating-ui/core@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.npmmirror.com/@floating-ui/core/-/core-1.0.4.tgz#03066eaea8e9b2a2cd3f5aaa60f1e0f580ebe88e"
-  integrity sha512-FPFLbg2b06MIw1dqk2SOEMAMX3xlrreGjcui5OTxfBDtaKTmh0kioOVjT8gcfl58juawL/yF+S+gnq8aUYQx/Q==
+"@floating-ui/core@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.npmmirror.com/@floating-ui/core/-/core-1.0.5.tgz#ada3cca622fe7b52d7b9ead97ddbed5b98925c66"
+  integrity sha512-iDdOsaCHZH/0FM0yNBYt+cJxJF9S5jrYWNtDZOiDFMiZ7uxMJ/71h8eTwoVifEAruv9p9rlMPYCGIgMjOz95FQ==
 
-"@floating-ui/dom@^1.0.1", "@floating-ui/dom@^1.0.5":
-  version "1.0.12"
-  resolved "https://registry.npmmirror.com/@floating-ui/dom/-/dom-1.0.12.tgz#07c870a05d9b825a6d7657524f48fe6761722800"
-  integrity sha512-HeG/wHoa2laUHlDX3xkzqlUqliAfa+zqV04LaKIwNCmCNaW2p0fQi4/Kd0LB4GdFoJ2UllLFq5gWnXAd67lg7w==
+"@floating-ui/dom@^1.0.1", "@floating-ui/dom@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/@floating-ui/dom/-/dom-1.1.0.tgz#29fea1344fdef15b6ba270a733d20b7134fee5c2"
+  integrity sha512-TSogMPVxbRe77QCj1dt8NmRiJasPvuc+eT5jnJ6YpLqgOD2zXc5UA3S1qwybN+GVCDNdKfpKy1oj8RpzLJvh6A==
   dependencies:
-    "@floating-ui/core" "^1.0.4"
+    "@floating-ui/core" "^1.0.5"
 
 "@floating-ui/react-dom@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.npmmirror.com/@floating-ui/react-dom/-/react-dom-1.0.1.tgz#ee3524eab740b9380a00f4c2629a758093414325"
-  integrity sha512-UW0t1Gi8ikbDRr8cQPVcqIDMBwUEENe5V4wlHWdrJ5egFnRQFBV9JirauTBFI6S8sM1qFUC1i+qa3g87E6CLTw==
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/@floating-ui/react-dom/-/react-dom-1.1.0.tgz#cd212b9e98303ba76e59806e425217f40e33926d"
+  integrity sha512-xyP9dMqZouuQ7h10DvbEbxZItuUleKHXe7XQFvbpttjXZrfyQMaZVTnWsE/t3hrHakZy18HxEBZRzGNXQHd0GA==
   dependencies:
-    "@floating-ui/dom" "^1.0.5"
+    "@floating-ui/dom" "^1.1.0"
 
 "@formatjs/ecma402-abstract@1.11.4":
   version "1.11.4"
@@ -2111,9 +2111,9 @@
   integrity sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==
 
 "@types/node@*":
-  version "18.11.17"
-  resolved "https://registry.npmmirror.com/@types/node/-/node-18.11.17.tgz#5c009e1d9c38f4a2a9d45c0b0c493fe6cdb4bcb5"
-  integrity sha512-HJSUJmni4BeDHhfzn6nF0sVmd1SMezP7/4F0Lq+aXzmp2xm9O7WXrUtHW/CHlYVtZUbByEvWidHqRtcJXGF2Ng==
+  version "18.11.18"
+  resolved "https://registry.npmmirror.com/@types/node/-/node-18.11.18.tgz#8dfb97f0da23c2293e554c5a50d61ef134d7697f"
+  integrity sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -8608,9 +8608,9 @@ safe-regex@^1.1.0:
     ret "~0.1.10"
 
 safe-stable-stringify@^2.3.1:
-  version "2.4.1"
-  resolved "https://registry.npmmirror.com/safe-stable-stringify/-/safe-stable-stringify-2.4.1.tgz#34694bd8a30575b7f94792aa51527551bd733d61"
-  integrity sha512-dVHE6bMtS/bnL2mwualjc6IxEv1F+OCUpA46pKUj6F8uDbUM0jCCulPqRNPSnWwGNKx5etqMjZYdXtrm5KJZGA==
+  version "2.4.2"
+  resolved "https://registry.npmmirror.com/safe-stable-stringify/-/safe-stable-stringify-2.4.2.tgz#ec7b037768098bf65310d1d64370de0dc02353aa"
+  integrity sha512-gMxvPJYhP0O9n2pvcfYfIuYgbledAOJFcqRThtPRmjscaipiwcwPPKLytpVzMkG2HAN87Qmo2d4PtGiri1dSLA==
 
 "safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   version "2.1.2"
