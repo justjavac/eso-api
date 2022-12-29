@@ -4,7 +4,8 @@
   "info": {
     "singularName": "worldevent",
     "pluralName": "worldevents",
-    "displayName": "世界事件"
+    "displayName": "世界事件",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,6 +26,9 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "thumb": {
+      "type": "string"
     }
   }
 }
