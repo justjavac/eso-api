@@ -4,7 +4,8 @@
   "info": {
     "singularName": "faction-type",
     "pluralName": "faction-types",
-    "displayName": "阵营类型"
+    "displayName": "阵营类型",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,7 +18,8 @@
       "type": "string"
     },
     "slug": {
-      "type": "uid"
+      "type": "uid",
+      "targetField": "nameEn"
     },
     "description": {
       "type": "text"
