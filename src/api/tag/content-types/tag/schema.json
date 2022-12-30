@@ -24,6 +24,12 @@
       "relation": "manyToMany",
       "target": "api::build.build",
       "mappedBy": "tags"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "mappedBy": "tags"
     }
   }
 }
