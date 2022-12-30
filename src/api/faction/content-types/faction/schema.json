@@ -34,6 +34,12 @@
       "relation": "oneToMany",
       "target": "api::race.race",
       "mappedBy": "faction"
+    },
+    "factionType": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::faction-type.faction-type",
+      "inversedBy": "factions"
     }
   }
 }
