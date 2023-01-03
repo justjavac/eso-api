@@ -4,7 +4,8 @@
   "info": {
     "singularName": "mundus-stone",
     "pluralName": "mundus-stones",
-    "displayName": "梦达思之石"
+    "displayName": "梦达思之石",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,7 +25,7 @@
       "type": "string"
     },
     "effect": {
-      "type": "text"
+      "type": "string"
     },
     "content": {
       "type": "richtext"
