@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "attributes",
+  "info": {
+    "singularName": "attribute",
+    "pluralName": "attributes",
+    "displayName": "属性"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "nameEn": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nameEn"
+    },
+    "description": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

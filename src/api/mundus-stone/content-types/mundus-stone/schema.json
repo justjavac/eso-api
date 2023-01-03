@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mundus_stones",
+  "info": {
+    "singularName": "mundus-stone",
+    "pluralName": "mundus-stones",
+    "displayName": "梦达思之石"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "nameEn": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nameEn"
+    },
+    "thumb": {
+      "type": "string"
+    },
+    "effect": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "classes",
+  "info": {
+    "singularName": "class",
+    "pluralName": "classes",
+    "displayName": "职业"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "nameEn": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nameEn"
+    },
+    "description": {
+      "type": "text"
+    },
+    "thumb": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
