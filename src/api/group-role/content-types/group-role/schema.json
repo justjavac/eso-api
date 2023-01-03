@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "classes",
+  "collectionName": "group_roles",
   "info": {
-    "singularName": "class",
-    "pluralName": "classes",
-    "displayName": "职业"
+    "singularName": "group-role",
+    "pluralName": "group-roles",
+    "displayName": "队伍角色"
   },
   "options": {
     "draftAndPublish": true
@@ -20,11 +20,11 @@
       "type": "uid",
       "targetField": "nameEn"
     },
-    "description": {
-      "type": "text"
-    },
     "thumb": {
       "type": "string"
+    },
+    "description": {
+      "type": "text"
     },
     "content": {
       "type": "richtext"
@@ -33,7 +33,7 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::build.build",
-      "mappedBy": "class"
+      "mappedBy": "role"
     }
   }
 }

@@ -1,10 +1,11 @@
 {
   "kind": "collectionType",
-  "collectionName": "classes",
+  "collectionName": "article_types",
   "info": {
-    "singularName": "class",
-    "pluralName": "classes",
-    "displayName": "职业"
+    "singularName": "article-type",
+    "pluralName": "article-types",
+    "displayName": "文章类型",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,17 +24,11 @@
     "description": {
       "type": "text"
     },
-    "thumb": {
-      "type": "string"
-    },
     "content": {
       "type": "richtext"
     },
-    "builds": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::build.build",
-      "mappedBy": "class"
+    "thumb": {
+      "type": "string"
     }
   }
 }

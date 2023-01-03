@@ -32,6 +32,18 @@
       "relation": "manyToMany",
       "target": "api::tag.tag",
       "inversedBy": "builds"
+    },
+    "class": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::class.class",
+      "inversedBy": "builds"
+    },
+    "role": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::group-role.group-role",
+      "inversedBy": "builds"
     }
   }
 }
