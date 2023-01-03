@@ -4,7 +4,8 @@
   "info": {
     "singularName": "attribute",
     "pluralName": "attributes",
-    "displayName": "属性"
+    "displayName": "属性",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,6 +26,9 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "color": {
+      "type": "string"
     }
   }
 }
