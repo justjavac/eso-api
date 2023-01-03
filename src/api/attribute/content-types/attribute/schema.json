@@ -29,6 +29,12 @@
     },
     "color": {
       "type": "string"
+    },
+    "builds": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::build.build",
+      "mappedBy": "attribute"
     }
   }
 }

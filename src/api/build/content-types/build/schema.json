@@ -44,6 +44,12 @@
       "relation": "manyToOne",
       "target": "api::group-role.group-role",
       "inversedBy": "builds"
+    },
+    "attribute": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::attribute.attribute",
+      "inversedBy": "builds"
     }
   }
 }
