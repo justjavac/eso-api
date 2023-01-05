@@ -30,8 +30,14 @@
       "target": "api::tag.tag",
       "inversedBy": "articles"
     },
-    "image": {
+    "thumb": {
       "type": "string"
+    },
+    "type": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::article-type.article-type",
+      "inversedBy": "articles"
     }
   }
 }
