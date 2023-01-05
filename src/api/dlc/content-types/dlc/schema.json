@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dlcs",
+  "info": {
+    "singularName": "dlc",
+    "pluralName": "dlcs",
+    "displayName": "DLC"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "nameEn": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nameEn"
+    },
+    "description": {
+      "type": "text"
+    },
+    "thumb": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "releaseDate": {
+      "type": "date"
+    },
+    "crowns": {
+      "type": "integer"
+    }
+  }
+}

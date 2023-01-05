@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chapters",
+  "info": {
+    "singularName": "chapter",
+    "pluralName": "chapters",
+    "displayName": "章节",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "nameEn": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nameEn"
+    },
+    "description": {
+      "type": "text"
+    },
+    "thumb": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "releaseDate": {
+      "type": "date"
+    }
+  }
+}
