@@ -34,6 +34,12 @@
     },
     "crowns": {
       "type": "integer"
+    },
+    "bundle": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::dlc-bundle.dlc-bundle",
+      "inversedBy": "dlcs"
     }
   }
 }
