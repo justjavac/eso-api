@@ -29,6 +29,9 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "restricted": {
+      "type": "boolean"
     }
   }
 }
