@@ -3,5 +3,6 @@
  */
 
 import { factories } from '@strapi/strapi'
+import { controller } from '../../../utils';
 
-export default factories.createCoreController('api::worldevent.worldevent');
+export default factories.createCoreController('api::worldevent.worldevent', ({ strapi }) => controller);

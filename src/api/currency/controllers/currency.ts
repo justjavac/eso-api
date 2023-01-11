@@ -3,5 +3,6 @@
  */
 
 import { factories } from '@strapi/strapi'
+import { controller } from '../../../utils';
 
-export default factories.createCoreController('api::currency.currency');
+export default factories.createCoreController('api::currency.currency', ({ strapi }) => controller);
