@@ -5,12 +5,12 @@ export const controller = {
     const { id } = ctx.params;
 
     if (Number.isInteger(Number(id))) {
-      // return await super.findOne(ctx);
+      return await super.findOne(ctx);
     }
 
     ctx.query.filters = { ...(ctx.query.filters as any), slug: id };
 
-    const list = await this.find(ctx);
+    const list = await super.find(ctx);
 
     if (list.meta.pagination.total === 0) {
       return null;

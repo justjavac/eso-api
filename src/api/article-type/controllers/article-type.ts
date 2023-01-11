@@ -3,6 +3,5 @@
  */
 
 import { factories } from '@strapi/strapi'
-import { controller } from '../../../utils';
 
-export default factories.createCoreController('api::article-type.article-type', ({ strapi }) => controller);
+export default factories.createCoreController('api::article-type.article-type');
