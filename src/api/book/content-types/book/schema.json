@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "books",
+  "info": {
+    "singularName": "book",
+    "pluralName": "books",
+    "displayName": "书籍",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titleEn": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titleEn"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "mediumIndex": {
+      "type": "string"
+    },
+    "skill": {
+      "type": "string"
+    },
+    "isLore": {
+      "type": "boolean"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "bookId": {
+      "type": "integer"
+    },
+    "categoryIndex": {
+      "type": "integer"
+    },
+    "collectionIndex": {
+      "type": "integer"
+    },
+    "bookIndex": {
+      "type": "integer"
+    },
+    "guildIndex": {
+      "type": "integer"
+    }
+  }
+}
