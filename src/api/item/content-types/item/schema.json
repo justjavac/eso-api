@@ -4,7 +4,8 @@
   "info": {
     "singularName": "item",
     "pluralName": "items",
-    "displayName": "物品"
+    "displayName": "物品",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,13 +24,13 @@
       "type": "string"
     },
     "recipeListIndex": {
-      "type": "number"
+      "type": "integer"
     },
     "recipeIndex": {
-      "type": "number"
+      "type": "integer"
     },
     "bindType": {
-      "type": "number"
+      "type": "integer"
     },
     "isConsumable": {
       "type": "boolean"
@@ -89,7 +90,8 @@
       "type": "string"
     },
     "itemId": {
-      "type": "number"
+      "type": "integer",
+      "unique": true
     },
     "tags": {
       "type": "string"
