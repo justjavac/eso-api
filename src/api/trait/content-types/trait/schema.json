@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "traits",
+  "info": {
+    "singularName": "trait",
+    "pluralName": "traits",
+    "displayName": "特质",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "nameEn": {
+      "type": "string"
+    },
+    "material": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::item.item"
+    },
+    "effect": {
+      "type": "text"
+    },
+    "type": {
+      "type": "integer"
+    },
+    "a1": {
+      "type": "string"
+    },
+    "a2": {
+      "type": "string"
+    },
+    "a3": {
+      "type": "string"
+    },
+    "a4": {
+      "type": "string"
+    },
+    "a5": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
