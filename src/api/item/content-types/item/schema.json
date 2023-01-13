@@ -1,0 +1,116 @@
+{
+  "kind": "collectionType",
+  "collectionName": "items",
+  "info": {
+    "singularName": "item",
+    "pluralName": "items",
+    "displayName": "物品"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "nameEn": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "recipeListIndex": {
+      "type": "number"
+    },
+    "recipeIndex": {
+      "type": "number"
+    },
+    "bindType": {
+      "type": "number"
+    },
+    "isConsumable": {
+      "type": "boolean"
+    },
+    "isArmorDecay": {
+      "type": "boolean"
+    },
+    "isVendorTrash": {
+      "type": "boolean"
+    },
+    "isUniqueEquipped": {
+      "type": "boolean"
+    },
+    "isUnique": {
+      "type": "boolean"
+    },
+    "materialLevelDesc": {
+      "type": "text"
+    },
+    "traitAbilityDesc": {
+      "type": "text"
+    },
+    "traitDesc": {
+      "type": "text"
+    },
+    "setName": {
+      "type": "string"
+    },
+    "enchantDesc": {
+      "type": "text"
+    },
+    "enchantName": {
+      "type": "string"
+    },
+    "craftType": {
+      "type": "string"
+    },
+    "armorType": {
+      "type": "string"
+    },
+    "weaponType": {
+      "type": "string"
+    },
+    "equipType": {
+      "type": "string"
+    },
+    "specialType": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "trait": {
+      "type": "string"
+    },
+    "style": {
+      "type": "string"
+    },
+    "itemId": {
+      "type": "number"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "dyeData": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "level": {
+      "type": "string"
+    },
+    "quality": {
+      "type": "string"
+    },
+    "armorRating": {
+      "type": "string"
+    },
+    "weaponPower": {
+      "type": "string"
+    }
+  }
+}
