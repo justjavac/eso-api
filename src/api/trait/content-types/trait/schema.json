@@ -29,19 +29,22 @@
       "type": "integer"
     },
     "a1": {
-      "type": "string"
+      "type": "integer"
     },
     "a2": {
-      "type": "string"
+      "type": "integer"
     },
     "a3": {
-      "type": "string"
+      "type": "integer"
     },
     "a4": {
-      "type": "string"
+      "type": "integer"
     },
     "a5": {
-      "type": "string"
+      "type": "integer"
+    },
+    "isPercent": {
+      "type": "boolean"
     },
     "content": {
       "type": "richtext"
