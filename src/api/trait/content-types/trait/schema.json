@@ -43,11 +43,20 @@
     "a5": {
       "type": "float"
     },
-    "isPercent": {
-      "type": "boolean"
+    "b1": {
+      "type": "float"
     },
-    "content": {
-      "type": "richtext"
+    "b2": {
+      "type": "float"
+    },
+    "b3": {
+      "type": "float"
+    },
+    "b4": {
+      "type": "float"
+    },
+    "b5": {
+      "type": "float"
     }
   }
 }
