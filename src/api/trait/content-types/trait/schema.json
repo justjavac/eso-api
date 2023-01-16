@@ -26,7 +26,7 @@
       "type": "text"
     },
     "type": {
-      "type": "integer"
+      "type": "string"
     },
     "a1": {
       "type": "float"
