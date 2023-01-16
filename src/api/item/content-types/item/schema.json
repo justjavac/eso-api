@@ -113,6 +113,12 @@
     },
     "weaponPower": {
       "type": "string"
+    },
+    "set": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::set-summary.set-summary",
+      "inversedBy": "items"
     }
   }
 }
