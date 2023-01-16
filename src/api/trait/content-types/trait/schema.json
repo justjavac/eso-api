@@ -29,19 +29,19 @@
       "type": "integer"
     },
     "a1": {
-      "type": "integer"
+      "type": "float"
     },
     "a2": {
-      "type": "integer"
+      "type": "float"
     },
     "a3": {
-      "type": "integer"
+      "type": "float"
     },
     "a4": {
-      "type": "integer"
+      "type": "float"
     },
     "a5": {
-      "type": "integer"
+      "type": "float"
     },
     "isPercent": {
       "type": "boolean"
