@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prices",
+  "info": {
+    "singularName": "price",
+    "pluralName": "prices",
+    "displayName": "价格"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "avg": {
+      "type": "decimal"
+    },
+    "max": {
+      "type": "biginteger"
+    },
+    "min": {
+      "type": "biginteger"
+    },
+    "suggested": {
+      "type": "decimal"
+    },
+    "entryCount": {
+      "type": "integer"
+    },
+    "amountCount": {
+      "type": "integer"
+    },
+    "item": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::item.item",
+      "inversedBy": "prices"
+    }
+  }
+}

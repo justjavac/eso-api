@@ -119,6 +119,12 @@
       "relation": "manyToOne",
       "target": "api::set-summary.set-summary",
       "inversedBy": "items"
+    },
+    "prices": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::price.price",
+      "mappedBy": "item"
     }
   }
 }
