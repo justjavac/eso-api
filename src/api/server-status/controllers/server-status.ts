@@ -15,13 +15,13 @@ export default factories.createCoreController(
 
       const response = await super.update(ctx);
 
-      let message = "服务器正常运行";
+      let message = null;
       if (isOnline(servers) && !isOnline(response.data.attributes.servers)) {
         message = "服务器正在维护中";
       } else if (
         !isOnline(servers) && isOnline(response.data.attributes.servers)
       ) {
-        message = "服务器正常运行";
+        message = null;
       } else {
         return response;
       }
