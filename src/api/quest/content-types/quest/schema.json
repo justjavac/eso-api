@@ -107,6 +107,12 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "steps": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::quest-step.quest-step",
+      "mappedBy": "quest"
     }
   }
 }

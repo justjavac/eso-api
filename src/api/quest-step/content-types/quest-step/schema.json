@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quest_steps",
+  "info": {
+    "singularName": "quest-step",
+    "pluralName": "quest-steps",
+    "displayName": "任务步骤",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "overrideText": {
+      "type": "text"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "stepIndex": {
+      "type": "integer"
+    },
+    "stageIndex": {
+      "type": "integer"
+    },
+    "uniqueId": {
+      "type": "integer"
+    },
+    "zone": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "visibility": {
+      "type": "string"
+    },
+    "quest": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::quest.quest",
+      "inversedBy": "steps"
+    },
+    "x": {
+      "type": "float"
+    },
+    "y": {
+      "type": "float"
+    }
+  }
+}
