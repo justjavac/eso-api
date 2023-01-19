@@ -1,0 +1,99 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quests",
+  "info": {
+    "singularName": "quest",
+    "pluralName": "quests",
+    "displayName": "任务"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "nameEn": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nameEn"
+    },
+    "level": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string"
+    },
+    "repeatType": {
+      "type": "string"
+    },
+    "locationZone": {
+      "type": "string"
+    },
+    "zone": {
+      "type": "string"
+    },
+    "poiIndex": {
+      "type": "integer"
+    },
+    "objective": {
+      "type": "string"
+    },
+    "backgroundText": {
+      "type": "string"
+    },
+    "goalText": {
+      "type": "string"
+    },
+    "confirmText": {
+      "type": "string"
+    },
+    "declineText": {
+      "type": "string"
+    },
+    "endDialogText": {
+      "type": "string"
+    },
+    "endJournalText": {
+      "type": "string"
+    },
+    "endBackgroundText": {
+      "type": "string"
+    },
+    "hasTimer": {
+      "type": "boolean"
+    },
+    "timerDuration": {
+      "type": "integer"
+    },
+    "timerCaption": {
+      "type": "string"
+    },
+    "numRewards": {
+      "type": "integer"
+    },
+    "numSteps": {
+      "type": "integer"
+    },
+    "numTools": {
+      "type": "integer"
+    },
+    "isShareable": {
+      "type": "boolean"
+    },
+    "uniqueId": {
+      "type": "integer"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "internalId": {
+      "type": "integer"
+    },
+    "displayType": {
+      "type": "integer"
+    }
+  }
+}
