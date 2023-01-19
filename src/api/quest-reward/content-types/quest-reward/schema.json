@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quest_rewards",
+  "info": {
+    "singularName": "quest-reward",
+    "pluralName": "quest-rewards",
+    "displayName": "任务奖励",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "nameEn": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "logId": {
+      "type": "integer"
+    },
+    "uniqueId": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "quality": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "collectId": {
+      "type": "integer"
+    },
+    "item": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::item.item"
+    },
+    "quest": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::quest.quest",
+      "inversedBy": "rewards"
+    }
+  }
+}

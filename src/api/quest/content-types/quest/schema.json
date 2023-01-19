@@ -94,6 +94,12 @@
     },
     "displayType": {
       "type": "integer"
+    },
+    "rewards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::quest-reward.quest-reward",
+      "mappedBy": "quest"
     }
   }
 }
