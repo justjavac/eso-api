@@ -4,7 +4,8 @@
   "info": {
     "singularName": "quest",
     "pluralName": "quests",
-    "displayName": "任务"
+    "displayName": "任务",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -100,6 +101,12 @@
       "relation": "oneToMany",
       "target": "api::quest-reward.quest-reward",
       "mappedBy": "quest"
+    },
+    "quick": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
