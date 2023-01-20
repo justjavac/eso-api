@@ -33,9 +33,6 @@
     "locationZone": {
       "type": "string"
     },
-    "zone": {
-      "type": "string"
-    },
     "poiIndex": {
       "type": "integer"
     },
