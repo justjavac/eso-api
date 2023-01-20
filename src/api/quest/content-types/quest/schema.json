@@ -113,6 +113,12 @@
     },
     "zoneName": {
       "type": "string"
+    },
+    "location": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::zone.zone",
+      "inversedBy": "quests"
     }
   }
 }

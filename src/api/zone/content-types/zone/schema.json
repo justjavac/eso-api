@@ -111,6 +111,12 @@
     },
     "mapId": {
       "type": "integer"
+    },
+    "quests": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::quest.quest",
+      "mappedBy": "location"
     }
   }
 }
