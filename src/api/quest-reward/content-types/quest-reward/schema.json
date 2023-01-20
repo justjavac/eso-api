@@ -51,6 +51,12 @@
       "relation": "manyToOne",
       "target": "api::quest.quest",
       "inversedBy": "rewards"
+    },
+    "skillLine": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::skill-line.skill-line",
+      "inversedBy": "rewards"
     }
   }
 }

@@ -41,6 +41,12 @@
     },
     "xp": {
       "type": "string"
+    },
+    "rewards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::quest-reward.quest-reward",
+      "mappedBy": "skillLine"
     }
   }
 }
