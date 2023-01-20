@@ -119,6 +119,12 @@
       "relation": "manyToOne",
       "target": "api::zone.zone",
       "inversedBy": "quests"
+    },
+    "description": {
+      "type": "text"
+    },
+    "thumb": {
+      "type": "string"
     }
   }
 }
