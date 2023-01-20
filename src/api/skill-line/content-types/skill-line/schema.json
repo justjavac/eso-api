@@ -47,6 +47,18 @@
       "relation": "oneToMany",
       "target": "api::quest-reward.quest-reward",
       "mappedBy": "skillLine"
+    },
+    "rece": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::race.race",
+      "inversedBy": "skillLine"
+    },
+    "class": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::class.class",
+      "inversedBy": "skillLine"
     }
   }
 }

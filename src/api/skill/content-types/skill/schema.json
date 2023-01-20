@@ -263,6 +263,9 @@
     },
     "avg6": {
       "type": "float"
+    },
+    "skillLineName": {
+      "type": "string"
     }
   }
 }

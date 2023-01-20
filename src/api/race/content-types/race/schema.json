@@ -41,6 +41,12 @@
       "relation": "oneToMany",
       "target": "api::npc.npc",
       "mappedBy": "race"
+    },
+    "skillLine": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::skill-line.skill-line",
+      "mappedBy": "rece"
     }
   }
 }
