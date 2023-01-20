@@ -113,6 +113,9 @@
       "relation": "oneToMany",
       "target": "api::quest-step.quest-step",
       "mappedBy": "quest"
+    },
+    "zoneName": {
+      "type": "string"
     }
   }
 }
