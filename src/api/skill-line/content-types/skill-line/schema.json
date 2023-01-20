@@ -48,7 +48,7 @@
       "target": "api::quest-reward.quest-reward",
       "mappedBy": "skillLine"
     },
-    "rece": {
+    "race": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::race.race",

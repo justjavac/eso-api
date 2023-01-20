@@ -46,7 +46,7 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::skill-line.skill-line",
-      "mappedBy": "rece"
+      "mappedBy": "race"
     }
   }
 }
