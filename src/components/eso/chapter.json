@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_eso_chapters",
+  "info": {
+    "displayName": "章节",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "releaseDate": {
+      "type": "date"
+    }
+  }
+}

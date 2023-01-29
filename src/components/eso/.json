@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_eso_",
+  "info": {
+    "displayName": "货币"
+  },
+  "options": {},
+  "attributes": {
+    "restricted": {
+      "type": "boolean"
+    }
+  }
+}

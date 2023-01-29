@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "daily_login_rewards",
+  "info": {
+    "singularName": "daily-login-reward",
+    "pluralName": "daily-login-rewards",
+    "displayName": "每日登录奖励"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "date": {
+      "type": "string"
+    },
+    "rewards": {
+      "type": "json"
+    }
+  }
+}
