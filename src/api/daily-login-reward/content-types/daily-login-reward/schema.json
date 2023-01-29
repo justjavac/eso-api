@@ -4,15 +4,13 @@
   "info": {
     "singularName": "daily-login-reward",
     "pluralName": "daily-login-rewards",
-    "displayName": "每日登录奖励"
+    "displayName": "每日登录奖励",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "attributes": {
-    "date": {
-      "type": "string"
-    },
     "rewards": {
       "type": "json"
     }
