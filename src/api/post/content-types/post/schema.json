@@ -39,14 +39,9 @@
       "inversedBy": "categories"
     },
     "meta": {
-      "type": "dynamiczone",
-      "components": [
-        "eso.chapter",
-        "eso.class",
-        "eso.currency",
-        "eso.quest",
-        "eso.race"
-      ]
+      "type": "component",
+      "repeatable": true,
+      "component": "eso.meta"
     }
   }
 }

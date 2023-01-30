@@ -7,7 +7,8 @@
   "options": {},
   "attributes": {
     "releaseDate": {
-      "type": "date"
+      "type": "date",
+      "displayName": "发布日期"
     }
   }
 }

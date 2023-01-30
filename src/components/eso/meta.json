@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_eso_metas",
+  "info": {
+    "displayName": "Meta"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "markdown",
+        "number",
+        "integer",
+        "float",
+        "boolean",
+        "date",
+        "datetime",
+        "link",
+        "wiki"
+      ]
+    }
+  }
+}
