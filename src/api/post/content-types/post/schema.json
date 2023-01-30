@@ -12,7 +12,9 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "nameEn": {
       "type": "string"
@@ -42,6 +44,11 @@
       "type": "component",
       "repeatable": true,
       "component": "eso.meta"
+    },
+    "views": {
+      "type": "integer",
+      "default": 1,
+      "required": true
     }
   }
 }
