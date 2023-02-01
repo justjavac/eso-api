@@ -49,6 +49,10 @@
       "type": "integer",
       "default": 1,
       "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nameEn"
     }
   }
 }
