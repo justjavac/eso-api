@@ -69,6 +69,12 @@
       "relation": "oneToMany",
       "target": "api::item.item",
       "mappedBy": "set"
+    },
+    "buffs": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::buff.buff",
+      "mappedBy": "sets"
     }
   }
 }
