@@ -4,7 +4,8 @@
   "info": {
     "singularName": "buff",
     "pluralName": "buffs",
-    "displayName": "Buff"
+    "displayName": "Buff",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -40,6 +41,9 @@
         "Miscellaneous",
         "Quest Related"
       ]
+    },
+    "thumb": {
+      "type": "string"
     }
   }
 }
