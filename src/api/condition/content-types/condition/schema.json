@@ -43,6 +43,18 @@
       "relation": "manyToOne",
       "target": "api::quest-step.quest-step",
       "inversedBy": "conditions"
+    },
+    "isFail": {
+      "type": "boolean"
+    },
+    "isVisible": {
+      "type": "boolean"
+    },
+    "isComplete": {
+      "type": "boolean"
+    },
+    "isShared": {
+      "type": "boolean"
     }
   }
 }
