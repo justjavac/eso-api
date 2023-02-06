@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "conditions",
+  "info": {
+    "singularName": "condition",
+    "pluralName": "conditions",
+    "displayName": "Condition",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "quest": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::quest.quest",
+      "inversedBy": "conditions"
+    },
+    "questStepId": {
+      "type": "integer"
+    },
+    "stageIndex": {
+      "type": "integer"
+    },
+    "stepIndex": {
+      "type": "integer"
+    },
+    "conditionIndex": {
+      "type": "integer"
+    },
+    "maxValue": {
+      "type": "integer"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "step": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::quest-step.quest-step",
+      "inversedBy": "conditions"
+    }
+  }
+}

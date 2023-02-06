@@ -49,6 +49,12 @@
     },
     "y": {
       "type": "float"
+    },
+    "conditions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::condition.condition",
+      "mappedBy": "step"
     }
   }
 }

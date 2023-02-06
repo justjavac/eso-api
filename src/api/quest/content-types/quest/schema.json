@@ -127,6 +127,12 @@
     },
     "thumb": {
       "type": "string"
+    },
+    "conditions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::condition.condition",
+      "mappedBy": "quest"
     }
   }
 }
