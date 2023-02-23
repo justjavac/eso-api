@@ -43,7 +43,7 @@
     "meta": {
       "type": "component",
       "repeatable": true,
-      "component": "eso.meta"
+      "component": "wiki.meta"
     },
     "views": {
       "type": "integer",
